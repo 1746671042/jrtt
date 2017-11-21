@@ -1,0 +1,26 @@
+<a ng-repeat="v in list | limitTo:num">
+    <div class="container-fluid list" >
+        <div class="row" >
+            <main class="col-md-10 col-lg-11 col-sm-8 col-xs-8 main-content">
+                <article id="1" class="post">
+                    <div class="post-head">
+                        <span class="title" >
+                            {{v.title}}
+                        </span>
+                    </div>
+                    <div class="post-meta">
+                        <span class="author">{{v.soure}}
+                            {{v.time}}
+                        </span>
+                    </div>
+                </article>
+            </main>
+            <aside class="col-md-2 col-lg-1 col-sm-4 col-xs-4 main-content sidebar">
+                <div class="widget">
+                    <img ng-src="{{v.media_url}}" >
+                </div>
+            </aside> 
+        </div>
+        <hr/>
+    </div>
+</a>

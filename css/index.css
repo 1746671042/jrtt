@@ -1,0 +1,27 @@
+.title{
+    color: #5D5A60;
+    font-size: 25px;
+}
+hr{
+    border: 1px solid gainsboro;
+}
+.widget{
+    overflow: hidden;
+}
+.morethan{
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #428BCA;
+    border-radius: 5px;
+}
+.list:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+hr{
+    margin-bottom: 0px;
+}
+.more{
+    cursor: pointer;
+}
